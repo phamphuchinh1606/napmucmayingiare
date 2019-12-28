@@ -1,0 +1,14 @@
+[06-Aug-2017 08:33:27 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:33:46 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:33:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:34:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:35:33 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:36:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 23
+[06-Aug-2017 08:38:47 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:43:11 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:45:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:46:41 UTC] PHP Fatal error:  Function name must be a string in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[06-Aug-2017 08:47:03 UTC] PHP Fatal error:  Function name must be a string in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 32
+[11-Aug-2017 06:47:01 UTC] PHP Fatal error:  Using $this when not in object context in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 21
+[11-Aug-2017 06:50:27 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 22
+[11-Aug-2017 06:54:23 UTC] PHP Fatal error:  Call to undefined function pre() in /home/vietcongtyweb/public_html/public/admin/js/ckfinder/config.php on line 22

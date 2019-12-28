@@ -1,0 +1,1 @@
+<div class="banner"><a href="#"><img alt="" src="images/ads/ads-17.jpg"></a></div>
