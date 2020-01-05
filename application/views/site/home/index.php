@@ -24,10 +24,10 @@
           		<div class="box-item">
           			<div class="box-image">
           			    <?php if($gioithieu->image_link): ?>
-          			        <img src="<?=base_url('uploads/images/news/'.$gioithieu->image_link)?>" alt="<?=$gioithieu->name?>"/>
+          			        <img style="margin: 0 auto;width: 100%" src="<?=base_url('uploads/images/news/'.$gioithieu->image_link)?>" alt="<?=$gioithieu->name?>"/>
           			    <?php endif;?>
           			    <?php if(empty($gioithieu->image_link)): ?>
-                            <img src="<?=base_url('uploads/images/\catalogs/placeholder.png')?>" class="img-1" alt="<?=$gioithieu->name?>" />
+                            <img style="margin: 0 auto;width: 100%" src="<?=base_url('uploads/images/\catalogs/placeholder.png')?>" class="img-1" alt="<?=$gioithieu->name?>" />
                         <?php endif;?>
           			</div>
           		</div>
@@ -44,6 +44,7 @@
 <div class="block-title-cm block-about-home">
   <div class="container">
     <div class="row">
+        <h1 class="hide">Lắp đặt hệ thống camera quan sát , dịch vụ sửa chữa máy tính tận nơi, sửa chữa máy in tận nơi</h1>
         <h3 class="headline-about">DỊCH VỤ CHÍNH</h3>
         <div class="tb-blog space entry">
             <?php foreach($list_services as $row):?>
@@ -63,7 +64,7 @@
                         </div>
                     </a>
                     <div class="tb-content-block-title">
-                      <h3 class="blog-title-bottom"><a href="<?=site_url($row->url.'-t'.$row->id)?>"><?=$row->name?></a></h3>
+                      <h3 class="blog-title-bottom"  property="description"><a href="<?=site_url($row->url.'-t'.$row->id)?>"><?=$row->name?></a></h3>
                   </div>
               </article>
               
@@ -79,7 +80,7 @@
 <?php if(isset($listsp) && $listsp):?>
 <section class="block-title-cm block-product-list-home">
   <div class="container">
-    <div class="naviacc"><h2 class="ttl_not-arrow">Sản phẩm Mới & Nổi Bật</h2><b></b></div>
+    <div class="naviacc"><h2>Sản phẩm Mới & Nổi Bật</h2></div>
     <div class="product-list product-hot-carousel owl-carousel owl-theme">
       <?php
       foreach($listsp as $row): ?>

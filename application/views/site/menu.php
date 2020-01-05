@@ -97,7 +97,7 @@
         <div class="stt-menu col-md-2">
           <div class="st_header">
             <div class="st_img">
-              <img src="//bizweb.dktcdn.net/100/197/269/themes/517883/assets/phone.png">
+              <img alt="<?=$infosetting->sdt;?>" src="//bizweb.dktcdn.net/100/197/269/themes/517883/assets/phone.png">
             </div>
             <div class="st_text title_font"><a href="tel:<?=$infosetting->sdt;?>"><?=$infosetting->sdt;?></a></div>
           </div>

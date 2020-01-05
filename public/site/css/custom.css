@@ -3081,6 +3081,11 @@ ul.playlist li img {
         width: 1200px;
     }
 }
+@media (min-width: 1300px){
+  .container {
+    width: 100%;
+  }
+}
 .home-vmegamenu .v-megamenu li .submenu {
     display: none;
     position: absolute;
@@ -3232,7 +3237,7 @@ ul.playlist li img {
 }
 .Header-Order:after {
     color: #fff;
-    content: "Giỏ hàng";
+    content: "Giỏ Hàng";
     font-size: 14px;
     font-weight: 300;
     height: 30px;
@@ -3391,6 +3396,8 @@ ul.playlist li img {
     transition: 8s;
     -webkit-transition: 8s;
     width: auto;
+    max-height: 277px;
+    margin: 0 auto;
 }
 .tb-blog.space > div:nth-child(2n+1) .tb-content-block {
     background: rgba(198,217,198,0.7);

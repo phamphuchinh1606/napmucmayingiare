@@ -3,6 +3,7 @@
 <!--[if IE 7 ]><html lang="vi" class="no-js ie-old"><![endif]-->
 <!--[if IE 8 ]><html lang="vi" class="no-js ie-old"><![endif]-->
 <!--[if gt IE 8 ]><html lang="vi" class="no-js ie-old"><![endif]-->
+<!DOCTYPE html>
 <html <?php if($this->ngonngu != 'en'):?> lang="vi" <?php endif;?><?php if($this->ngonngu == 'en'):?> lang="en" <?php endif;?>>
 <head>
     <?php $this->load->view('site/head', $this->data); ?>
@@ -51,11 +52,11 @@
 		<p>Trình duyệt của bạn đã lỗi thời, và có thể không tương thích tốt với website, chắc chắn rằng trải nghiệm của bạn trên website sẽ bị hạn chế. Bên dưới là danh sách những trình duyệt phổ biến hiện nay.</p><br>
 		<p>Click vào biểu tượng để tải trình duyệt bạn muốn.</p><br>
 		<ul class="ulloiie" style="display: inline-block;">
-			<li><a href="https://www.google.com/chrome/"><img src="<?=public_url('site/images/Chrome.png')?>"></a></li>
-			<li><a href="https://www.mozilla.org/firefox/"><img src="<?=public_url('site/images/Firefox.png')?>"></a></li>
-			<li><a href="https//www.microsoft.com/windows/Internet-explorer/"><img src="<?=public_url('site/images/Explorer.png')?>"></a></li>
-			<li><a href="https//www.opera.com/download/"><img src="<?=public_url('site/images/Opera-icon.png')?>"></a></li>
-			<li><a href="https//www.apple.com/safari/download/"><img src="<?=public_url('site/images/Safari.png')?>"></a></li>
+			<li><a href="https://www.google.com/chrome/"><img <?=$infosetting->tenquocte?> src="<?=public_url('site/images/Chrome.png')?>"></a></li>
+			<li><a href="https://www.mozilla.org/firefox/"><img <?=$infosetting->tenquocte?> src="<?=public_url('site/images/Firefox.png')?>"></a></li>
+			<li><a href="https//www.microsoft.com/windows/Internet-explorer/"><img <?=$infosetting->tenquocte?> src="<?=public_url('site/images/Explorer.png')?>"></a></li>
+			<li><a href="https//www.opera.com/download/"><img <?=$infosetting->tenquocte?> src="<?=public_url('site/images/Opera-icon.png')?>"></a></li>
+			<li><a href="https//www.apple.com/safari/download/"><img <?=$infosetting->tenquocte?> src="<?=public_url('site/images/Safari.png')?>"></a></li>
 		</ul>
 	</div>
 </body>

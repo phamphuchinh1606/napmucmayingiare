@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /search/?q=*
+Disallow: /admin/*
+Sitemap: http://nextfuncprojects.com/sitemap.xml

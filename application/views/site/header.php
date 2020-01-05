@@ -36,7 +36,7 @@
             <div class="col-xs-7 col-sm-7 col-md-9">
               <div id="Logo-Slogan" class="Logo-Slogan">
                 <a href="/">
-                  <img alt="" longdesc="<?=$infosetting->tenquocte?>" src="" title="<?=$infosetting->tenquocte?>">
+                  <img alt="<?=$infosetting->tenquocte?>" longdesc="<?=$infosetting->tenquocte?>" src="" title="<?=$infosetting->tenquocte?>">
                 </a>
               </div>
             </div>
@@ -71,7 +71,7 @@
 
 <header class="header1 hidden-lg hidden-md">
   <div class="headerxs">
-    <a href="<?=base_url()?>"><img src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>"></a>
+    <a href="<?=base_url()?>"><img alt="<?=base_url()?>" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>"></a>
   </div>
   <div class="header-top-right">
     <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax">

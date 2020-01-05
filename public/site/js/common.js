@@ -49,7 +49,7 @@
         }
     });
     $('.product-carousel').owlCarousel({
-        items: 4,
+        items: 5,
         margin: 0,
         loop: true,
         autoplay:true,
@@ -71,7 +71,7 @@
                 nav:true
             },
             1000:{
-                items:4,
+                items:5,
                 nav:true,
                 loop:false
             }
