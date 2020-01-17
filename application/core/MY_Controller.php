@@ -180,6 +180,7 @@ Class MY_Controller extends CI_Controller {
 				$this->db->cache_on();
 				$inputdoitac['order'] = array('sort_order', 'asc');
 				$logodoitac = $this->logodoitac_model->get_list($inputdoitac);
+
 				$this->db->cache_off();
 				$this->data['logodoitac'] = $logodoitac;
 

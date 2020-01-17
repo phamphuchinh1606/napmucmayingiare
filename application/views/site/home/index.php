@@ -238,6 +238,7 @@
   <?php endforeach;?>
 <?php endif;?>
 
+<?php $this->load->view('site/logofooter'); ?>
 
 <section class="block-title-cm block-article">
   <div class="container">

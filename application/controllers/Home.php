@@ -150,6 +150,7 @@ Class Home extends MY_Controller {
 		$this->db->order_by('id', 'asc');
 		$this->db->limit(12, 0);
 		$listdoitac = $this->logodoitac_model->get_list();
+
 		$this->db->cache_off();
 		$this->data['listdoitac'] = $listdoitac;
 
