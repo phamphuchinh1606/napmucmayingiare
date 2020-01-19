@@ -41,4 +41,18 @@
 <!--[if IE 8 ]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><![endif]-->
 <!--[if lt IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><![endif]-->
 <!--[if IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><![endif]-->
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "<?= base_url()?>",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "<?= base_url()?>/timkiem?keyword={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+
 <!-- <?=$infosetting->script;?> -->

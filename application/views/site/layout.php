@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html lang="vi" class="no-js ie-old"><![endif]-->
 <!--[if gt IE 8 ]><html lang="vi" class="no-js ie-old"><![endif]-->
 <!DOCTYPE html>
-<html <?php if($this->ngonngu != 'en'):?> lang="vi" <?php endif;?><?php if($this->ngonngu == 'en'):?> lang="en" <?php endif;?>>
+<html <?php if($this->ngonngu != 'en'):?> lang="vi-vn" <?php endif;?><?php if($this->ngonngu == 'en'):?> lang="en" <?php endif;?>>
 <head>
     <?php $this->load->view('site/head', $this->data); ?>
 </head>

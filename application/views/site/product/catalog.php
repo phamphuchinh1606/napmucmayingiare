@@ -72,7 +72,7 @@
                     <?php endif;?>
                 </p>
                 <a href="<?=site_url($sp->url.'-sp'.$sp->id)?>" title="<?=$sp->name?>">
-                  <img src="<?=base_url('uploads/images/products-images/'.$sp->image_link)?>" class="img-1" alt="<?=$sp->name?>">
+                  <img src="<?=base_url('uploads/images/products-images/'. urlencode($sp->image_link))?>" class="img-1" alt="<?=$sp->name?>">
                 </a>
               </div>
               <div class="product-info">
