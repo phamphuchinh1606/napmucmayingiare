@@ -1995,11 +1995,20 @@ footer .footer-description .nhakho-footer-section__heading{
 }
 
 .block-doitac {
-  background: #f1f1f1;
+  /*background: #f1f1f1;*/
 }
 
 .block-doitac .doitac-1 {
-  padding: 60px 15px 0px 15px;
+  /*padding: 60px 15px 0px 15px;*/
+  padding: 0;
+}
+
+.block-doitac .doitac-1 .product-item{
+  margin-bottom: 5px;
+}
+
+.block-doitac .doitac-1 .product-item img{
+  height: 50px;
 }
 
 .block-doitac .doitac-2 {
@@ -3083,6 +3092,9 @@ ul.playlist li img {
     .tb-blog .tb-content-block-title .blog-title-bottom a{
       font-size: 16px;
     }
+    .nav-menu>li{
+      padding-right: 30px;
+    }
 }
 @media (min-width: 1300px){
   .container {
@@ -3091,10 +3103,16 @@ ul.playlist li img {
   .tb-blog .tb-content-block-title .blog-title-bottom a{
     font-size: 22px;
   }
+  .nav-menu>li{
+    padding-right: 40px;
+  }
 }
 @media (min-width: 1600px){
   .tb-blog .tb-content-block-title .blog-title-bottom a{
     font-size: 25px;
+  }
+  .nav-menu>li{
+    padding-right: 50px;
   }
 }
 .home-vmegamenu .v-megamenu li .submenu {
@@ -3123,6 +3141,7 @@ ul.playlist li img {
   border-bottom:none !important;
   text-align:left !important;
 }
+
 .home-vmegamenu .v-megamenu li:hover {
 }
 .home-vmegamenu .v-megamenu li:hover>a {
@@ -3351,6 +3370,9 @@ ul.playlist li img {
 @media (max-width: 720px){
   .menu-horizontal {
     display: none;
+  }
+  .nav-menu>li{
+    padding-right: 20px;
   }
 }
 @media (min-width: 720px){

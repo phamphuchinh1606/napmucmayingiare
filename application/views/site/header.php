@@ -35,8 +35,9 @@
             </div>
             <div class="col-xs-7 col-sm-7 col-md-9">
               <div id="Logo-Slogan" class="Logo-Slogan">
-                <a href="/">
-                  <img alt="<?=$infosetting->tenquocte?>" longdesc="<?=$infosetting->tenquocte?>" src="" title="<?=$infosetting->tenquocte?>">
+                <a href="/" style="color: #ffffff">
+                    <?=$infosetting->tenquocte?>
+                    <!--<img alt="<?=$infosetting->tenquocte?>" longdesc="<?=$infosetting->tenquocte?>" src="" title="<?=$infosetting->tenquocte?>">-->
                 </a>
               </div>
             </div>

@@ -2614,6 +2614,10 @@ address .info-footer {
   clear: both;
 }
 
+.block-module-product-type li.active a{
+  color: #0d25e0;
+}
+
 /* Block Pagination
   ========================================================================== */
 

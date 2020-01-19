@@ -157,8 +157,6 @@ Class MY_Controller extends CI_Controller {
 		        $this->db->cache_off();
 		        $this->data['bannerqc'] = $bannerqc;
 
-
-
 		     
 
 	            // load slide

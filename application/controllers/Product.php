@@ -43,7 +43,7 @@ Class Product extends MY_Controller{
 		$this->data['keywords'] = $keywords;
 		$this->data['image_seo'] = ($catalog->image_link)?base_url('uploads/images/catalogs/'.$catalog->image_link):'';
 
-		if(count($this->catalog_model->menucon($catalog->id)) > 0){
+		if(count($this->catalog_model->menucon($catalog->id)) > 0 && false){
 			//$this->db->cache_on();
 			$catalog_subs = $this->catalog_model->get_sub_full($catalog);
 			if($catalog_subs){
@@ -62,9 +62,19 @@ Class Product extends MY_Controller{
 			//$this->db->cache_off();
 			$this->data['list_data'] = $list_data;
 		}else{
-			$this->db->where('status', 1);
-			$this->db->where('catalog_id', $catalog->id);
-			$list_sp = $this->db->get('product')->result();
+            if(count($this->catalog_model->menucon($catalog->id)) > 0){
+                //$this->db->cache_on();
+                $catalog_subs = $this->catalog_model->get_sub_full($catalog);
+                $this->db->where('status', 1);
+                $this->db->where_in('catalog_id', $catalog_subs);
+                $this->db->order_by('created', 'desc');
+                $this->db->order_by('noibat', 'asc');
+                $list_sp = $this->db->get('product')->result();
+            }else{
+                $this->db->where('status', 1);
+                $this->db->where('catalog_id', $catalog->id);
+                $list_sp = $this->db->get('product')->result();
+            }
 			// phan trang
 			$total_rows = count($list_sp);
 			$this->data['total_rows'] = $total_rows;
@@ -106,13 +116,24 @@ Class Product extends MY_Controller{
 			$this->db->limit($config['per_page'], $segment);
 			$phantrang = $this->pagination->create_links();
 			$this->data['phantrang'] = $phantrang;
-			
-			//$this->db->cache_on();
-			$this->db->where('status', 1);
-			$this->db->where('catalog_id', $catalog->id);
-			$this->db->order_by('created', 'desc');
-			$this->db->order_by('noibat', 'asc');
-			$list_sp = $this->db->get('product')->result();
+
+            if(count($this->catalog_model->menucon($catalog->id)) > 0){
+                //$this->db->cache_on();
+                $catalog_subs = $this->catalog_model->get_sub_full($catalog);
+                $this->db->where('status', 1);
+                $this->db->where_in('catalog_id', $catalog_subs);
+                $this->db->order_by('created', 'desc');
+                $this->db->order_by('noibat', 'asc');
+                $list_sp = $this->db->get('product')->result();
+            }else{
+                //$this->db->cache_on();
+                $this->db->where('status', 1);
+                $this->db->where('catalog_id', $catalog->id);
+                $this->db->order_by('created', 'desc');
+                $this->db->order_by('noibat', 'asc');
+                $list_sp = $this->db->get('product')->result();
+            }
+
 			//$this->db->cache_off();
 			$this->data['list_data_con'] = $list_sp;
 		}
@@ -149,6 +170,12 @@ Class Product extends MY_Controller{
 		$spcungloai = $this->product_model->get_list($inputcl);
 		//$this->db->cache_off();
 		$this->data['spcungloai'] = $spcungloai;
+
+		//Lay danh muc san pham cung loai
+        if(isset($catalog->parent_id)){
+            $catalog_subs = $this->catalog_model->menucon($catalog->parent_id);
+            $this->data['catalogsubs'] = $catalog_subs;
+        }
 
 		//$product->size = json_decode($product->size);
 

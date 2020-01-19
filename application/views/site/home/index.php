@@ -152,7 +152,7 @@
                     <a href="<?=base_url($data['cat_url'].'-c'.$data['cat_id'])?>"><?= $data['cat_name'];?></a></h2>
                 <ul class="menu-sub-nav">
                     <?php
-                        $c = $this->catalog_model->menucon($data['cat_id']);
+                        $c = $this->catalog_model->menuconcosanpham($data['cat_id']);
                         foreach($c as $key => $subs1):
                     ?>
                         <li>
@@ -180,7 +180,7 @@
                     </ul>
 
                 </div>*/?>
-                <div class="col-sm-12 padding-left-nopadding">
+                <div class="col-sm-12">
                     <div class="product-list product-carousel owl-carousel owl-theme">
                       <?php foreach ($data as $key => $value1): ?>
                         <?php if(!is_scalar($value1)): ?>
@@ -238,9 +238,9 @@
   <?php endforeach;?>
 <?php endif;?>
 
-<?php $this->load->view('site/logofooter'); ?>
+<?php $this->load->view('site/popularbrand'); ?>
 
-<section class="block-title-cm block-article">
+<!-- <section class="block-title-cm block-article">
   <div class="container">
     <div class="row">
       <div class="col-sm-6 block-article-list-image">
@@ -256,7 +256,6 @@
 				</div>
 			</div>
           <?php endforeach;?>
-  			 <!-- end box item -->
         </div>
       </div>
       
@@ -275,12 +274,11 @@
 				</div>
 			</div>
           <?php endforeach;?>
-  			 <!-- end box item -->
         </div>
       </div>
       
     </div>
   </div>
-</section>
+</section> -->
 
 

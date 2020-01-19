@@ -1,5 +1,26 @@
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 block-col-sidebar">
- 
+
+    <?php if(isset($catalogsubs) && $catalogsubs):?>
+    <div class="block-sidebar">
+        <div class="block-module block-links-sidebar block-module-product-type">
+            <div class="block-title">
+                <h2><i class="fa fa-file-text-o"></i>Danh Mục Sản Phẩm</h2>
+            </div>
+            <div class="block-content">
+                <ul class="list">
+                    <?php foreach($catalogsubs as $menuItem):?>
+                    <li class="<?php if($menuItem->id == $catalog->id):?> active <?php endif;?>">
+                        <a href="<?=base_url($menuItem->url.'-c'.$menuItem->id)?>" title="<?=$menuItem->name?>">
+                            <?=$menuItem->name?>
+                        </a>
+                    </li>
+                    <?php endforeach;?>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <?php endif;?>
+
   <?php if(isset($listsptb) && $listsptb):?>
   <div class="block-sidebar">
     <div class="block-module block-links-sidebar">

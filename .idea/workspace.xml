@@ -1,7 +1,328 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4389ced9-c64f-4af3-8458-34d63c6be428" name="Default Changelist" comment="" />
+    <list default="true" id="4389ced9-c64f-4af3-8458-34d63c6be428" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Catalog_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Catalog_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/site/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/site/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/site/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/site/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/site/logofooter.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/site/logofooter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/site/menuright.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/site/menuright.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/site/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/site/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0arc48r0l8lpavethkmvi4usolou8g09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0evu3pp8ml4ipfo4le76mdte9h8vd6cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0fvv8tchrg9946letbtdochiqiqt5p3n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0hmc8rc448ieuu1aergikb4anrr731j4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0hto9un8fu2sblu60seej4l67ar0ppu4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0lp3j0sm3s9ijsbs2s2d5f0n1quu1upr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0meje8j6t6r88h98t4jqit9n54nnnd3t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session0npm63463g4q5ik0s473j6uuvn8j28qq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session10g87eu15fi2r8964hdu9a0lvafqrrvq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session14g776t99u1katc2l8uuqiidg4httgae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session152nittsbouqhavq3g2s4tra7j8no42j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1e30k1m28d6749is37jrfuhujpdcudhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1f7ik4jnm1g4gfo0qrpc4trua8impdm3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1g59194aupj2g45m2ctv4tvlisfir46p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1i03qghqq5de8q8pn9g7qsh4etjv1ae9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1mhrcjq0k6g2dbf7vjaf2emb4gpa9teh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1qd3juigsquhg7uopsatkd4jiutktjlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1qhj0gecbhip98hotd6r58ost0nmcql9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session1u9im2tpqgsiffvvgkulfdtktpj5deld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session26s5oj6bb6lffjo5micbctbrpjr6pq18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session279pipm8l95abpgi14eakqotd8tmt2fo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session2al5bommbmrrf45lmdui194g2su9f6hn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session2casgcevhgtn44asgp8ssq3sb44lautl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session2h8diukq5le1kejnjuk710qidr9b17d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session2k5ip5rjoeuoro24devlilkd7uiqk775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session2s27p1tht4jo0bsg9qioi2osu6m7q6q1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session2vmjn5p6tc1k4ho200pigle17s1nof2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session325613rncs720i6c8eiqlllrf3iaaacs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session36cubj5n93rjqi0m9jd7jhibq1co936g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session3b97j2s97g9opdo71rptv19icijj4g0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session3bum60j7ari31trn4jalekq7foblhdq7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session3c8olqt2vnopo5mbcg3sv9kkhrco4amp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session3g4gfbl98vammfjq4urk53bcipqt9nnu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session3q1nra9h6p157ahtg0mnbqi4297vgvoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session403fodajjof1dockqncn66i8p8u37cg1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session46k5cdqsefbscu9417qq7gal8i12vue3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session49pn3i4bgouo7237rmqqevm6pienma49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4fmgujvi155kkup5u9d82j8m7qsfn51q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4hrqkevp6jf9nohij17ljeogto7chego" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4ie1jdq1av31u1l8958m9sfk08p53m7o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4ivo4iv7u0sk3jkr30efjhdk63pj4kut" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4j5c5kos20aa3acuu2b0qaptlmrc7hee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4l4i7lqaajfpus79j2aeqnq3ib3lrtki" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4qb0p72cit5aj39vmkthggugna6gsipo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session4r7r10mkirtdj8rlq1oeb0k8f6afg6jl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session579couae039iu9aqv7fih2d645jc9kjv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session59fsfac2k8al7dqs5kr6lgvq8cubbg4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session5e8f6bbeh4cku7f7muu5sqdfslds5thk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session5hqm59o0nf9f11ukekak6rjr8gbq0qk3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session5i2lf261ham6s9a2kg7jbl2336tg5tmc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session5lg46p4jvn2e5m2up29lqpijvigumqrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session5mqtcbd57psp1add43psmnggqvo8367t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session6dk0a08m9f0lfgtvmbbv7vdokgufvkf3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session6f9q0fvn34uk7l68ekpaponamv6dukl6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session6j889h7iftmq2492c0knu7sjo4sji205" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session6qpd6gu0m9gjcd1d4dvbjog4qa5f700u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session6s35jt2ju7gsbqu96ubr3njk3kt01ibr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session6tna4s08bg4g8gvr782019si8ct95a3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session74c2a14b01ofh21d0s0ddlqqjfdur9mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session79tmuulths8q12qnafk8oumh7vepju98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7fmei9k0uceob4di67aaqaavimnbcp0u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7hf87749jbvlapafi5ment26d4e0s0gh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7ijk5oapgqnnbeca0dv7l5b1tdno6gcg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7k1abh91v12qd65qr7niu4q8kp4h4q15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7lcdp1am2pcsu7dhjbngcs9onsti3das" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7ou22lsaudp4m5f17vva1rcrq78492an" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7qv7a2dluas9rdn5r7l5n8cu1sfciq2h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session7uhrddrh05r2jdhciv6jfv0t73mdmidm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session837b9eq0809qjmg0s1335qa3b6d0pqqc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8bus67akthrl6qokc8nv938m2r7nc7j3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8dcoc05scibgh2sddvit8r6865cs3o2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8eb49v96250itm4gnem8hgmu18pn8t1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8fg8s880at10n75f5qtniuohhpqt9i95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8hs57us0gga017pl8dd2mpnkmlo1qfk9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8nqvc90ikiagslha8n7le6tv6g63g89n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8p8tobkrvjv2kp9rq1mho9148g1squto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8t14qbg3be3itemlog1iq4ieb4ns54r6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session8vicpivp17sgvbretrh3h2mj0j31dgbq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9282e4aad8a5d0de3abcd0e7419bd50cc7e21dc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session93hsarttusesjbshdqdjocguga5n9ma3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session94vsc4n482vnlst4kvr72o5gtolhj355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session95g439seoc1bs5fqh6u49ci9t7m5q40q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session95inumac1ul08qql6bmsujgd7kmr1osu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session97eva12r503hikftu3833gl43orf5obn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session99tc8k0apbif5clgre5v9sqtdda5kpot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9b6at1h2j851l1poobasjc7iv2hldvde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9bdhod43cc5neoupppvgnuvee69tqli8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9c3g062cq4fn1j64fumpjt4sg8jl42k8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9cqou4iq8hljqi6ag2emkhq323hs39ul" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9fvbf142skp71lgs1oerl16vrp9tjrd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9h7mkpl7f7pd56vvfji0qvevmma8vdsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9hfiu645hafsa9l3lpqcpqkcf747690b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9kj4p6khemu6nmck5eprcqoerjfmhb1h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9q9ep3mb5qr7ouaah7rb5b8bqjbel7n3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_session9rnald1cnbrqo18eqmsvv9hub2v8nr0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiona8ihdb6cl21042lh863nqi9p43ejs01o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionaetjmmulriovd73lht7911lfbqmaqrk8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionaf6l79tm34mprpdmjap1tbipk7bkjcv7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionats1cic0g53et1u6iunqj8hob04047l8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionaug6bi53c6822pdg7222fljfcintshte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionaurgkmjdant9oe22pu39btfg3dapn4sg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionav3l1667vic9mvavj4ho6142kd48jf25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionb0r84ojl7r9rb2s4utm1llo9fpmd8c37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionb3mlo7i3u9nctmqunteedejr1236v39i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionb57e3nt4blvtr7u14dto0cfbhmplqeqs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionb8d9gjua2dvdh8a3pud9fm7dgnih6abp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionb92o1s5bqcdoic9js16689af97r4la85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionb9ld3vh4aevpbjheotg23qbg1g7265vr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionbg3mq1ct42ekia4dn0k7pimvmrh1ua1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionbj3icdkk4q4dng613pok3c7qp9ppse1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionbj49qhpi5ej893oong8gktiftqqe006o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionbjr94t3p4eddsn6fk6cia83opfp27205" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionbkurujn6prd6u0gtpkrjlo4k4rqfl4qn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionbqfbsrr9bu4bmp552ljn06s2dbr1cb68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionc05imsam50cldnonqienk6n7cnvtvjog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionc24lts4lfc9mbnieibdo4qapibvjjbic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionc4i0ddjjgrpu1p3ng1n1oe544s62ctfv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionc5im570u6kmj4c4heq07h469sqd9splv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioncakaaaomsbk7lojipf0l06ug404o8abu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioncaucomhk7ltiettbhe6auf7s031r8ibu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioncflpj6qqmg8c1p58ndv5544g1lcrmftd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioncpk6jj63a6u2ehekr5f6e7ut9jh9615n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioncqogl20ppokanrmt8muvoebh12nlklgc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioncrhlgtefa2ervm3smiftdftqak9muh4v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiond0brpqnmf8n5ste5vrvgit42hcggs7mg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiond3neue7lfoh07cati09usqecnr8501rq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiond4scdbs87clkbvebcgq4srbsuijf57rf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiond5pnv48u09uh0qnlm52cba141fr2c62s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiond8ivcd3rsrpb4277ilm79fd2he0d5t42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiond903u4nhhjalbqb8sglps734gdkm21dl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiondaluds2640d0c6k9eps6b6fdd7941k38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiondhuorip6agqdb0mo38kii9v12fhs9pjq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiondl6rb2hls1nltm6p2qev6dbpej66plet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiondtpvd5a32k7so0p882gkfn4erbsk4mkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionduq6hru0r0845urmomjn6em8hodg9oqg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessione3atmm9g6qooq3u69nvo22oqoi12qf79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessione4ug8doq8dihjd6t9c2bo2lv4971ndhf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessione80jusglknubvm3bj1ftk3igl42974di" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessione9gk2aulf09uo4mggm81iu0rsu7hh8dr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioneagk9mujqk5idgufokm7mugihk7b3bml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionec6qh96uurbmrjmc7hqcim2071u81jol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionee7fc2g9nt2k459hdfb20bdfvg00nl89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioneijervbg2a6r8dt222idc9lj5nv9t28e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionescng22qr3t4mbot9ueahv2h2gk99777" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionesdogghajq72ufhvmch61q0pjribduf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionfbe7mj7fq7ln04bh4b46hromgutqngtc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionfc6uql1rnb0n2mrnm25cl30of7bc58k8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionfs7bb1qlq11b556chs4ba1d1faf0il7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiong1h2h4fjefs2e6bfd9pd5j85ubrdv716" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiong2h902o0retl79bbjqebedf3dptnjgq4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiong3pu90tg869tn5cjmop58qmgl4b6ti5v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiong57jbnjdm9snl8uoihjsr405gdeg72ei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiongdsc1pc3v7n07065qaq1j1tf9tgi52pu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiongg2d9t7evkh7g0vlhh4g25mmps9e0257" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiongh3rdsm2t6f30r8413gve3lbroi3e0c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionghkkoptcd8qkgdos6066comafubjtcqu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionghqn8qgjtumvhu08pij6bjm1jocl341m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiongqckki2ik1busr3g6vd9s0a80beu6q64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionguhklvi3ac002j94l6vsi9fl845o5orf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionh0ege1ik05lijvo6gl08be2q9ljfb0kr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionh0gehau9a839rfg5q2sofuj5us1ooba5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionh5becnf21moggjsec7a07eaj9lfiuimq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionh6pb0khi9giu5qk1k3j9vuqs76hs3nf4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionhbges0r9s545qq45ueu563stm7suptth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionhcdbmukc5r1o6268s8f80ss8c9qp4701" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionhdhsq627c9nteakfvl5pgesql0sh4gge" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionhki3rhm24rdsbpaj7j8m5qcquuk8iu52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionhrfeoi2o4vh0r40melq4sfs0fqnlcu2g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioni05v8h98jlegbls105baricfheh5c7n5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioni1rfg3njfuvpgepf8ktjtig4g6ddkvj1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioni69hgplt0g8fc89gth5rt4up2kl35c4o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioni98fou65d9pej301ds7s3uqe4om40qdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionifmme25rbdgmq68upupnnipk4vgc4vcp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionii8pf7l3sl0ai7vs0o4bqqon268u54d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioniiqdng2l53u6v0so01mrmk4siifljhj2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessioniiql073dj62kl3n5g19sv60fu6q7ggh2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionio3lps8q40gkeupfo1otsq8u8pnpusa2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionirnpn418vob2k7o6nqhgmcea93jf70eg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionirrtkasnlesi9ol595uallrmfm4oij4g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionitkfs24liafs5ou8tiv6thrdvbru7pfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionivabqhtcfilmmvmb383qoiq53fouft1t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionj6p8i9aaon8j2drall6sh79blvaesps6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionj7q7g23l9an0fm5gvf0hbm4hhnpjjmfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionj9ml3pi5e4q3ravoimm8ofkoes9eijbe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjfb02htmv6f5t1rjf8htpne2evvrs66v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjfr4h7v6d6npvqgdijj6jikiju5qtojj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjg9a71c9e9nkdsg1k9ufu7874n3r2bno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjo58k0um7doiqlejm19oom79np6kakjn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjqlrgru9o0mj9033tvq3ckkfsot5s7v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjrv3c65i5ip9vm9qdq5d92p0kpt9rm50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionjsn3riesnsqn2476r2joneqfk5iobk8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionk1ns49aq282d8h2dh62efv8gs6qpuh53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionk2g8is17qseg8d2om11d3pt4815oglhg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionk6b8birrs6n5kpvu7pf71a55fnrpaq5m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionk6frsj882attkm4c4el4rbm6cf934cu6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionk907fti5mbdultv871gkstbkvs9ou71q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionkbgipp6qeredgk3i2vfe5u0k6q8q6jd5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionkho4it6s1umccb0boeb74pdg702k8np4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionkmsbjqdvoo9m498nfm2uc53miv04dqg2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionkr4q0n52v2fgsjcpb9tkjv7mblou83vd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionksbtjg5m4en1eleeo1v2su4igvaslhf0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionkskith31e52vmkr6ek06c4a0mi8e1jm0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionl3u7qfdp25bj02vdjvh99pi0vh2mbfn6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionldbe82baln3v0k3nhe2742tre73oeqrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionlhr9hkkmqchp0d44sa3ocmddbei79oil" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionlikjkh0pfeulh5ian1p2llolub2ln15f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionlsvq5bc78oq04qejmpfo4gcd5pkh882b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionlt9n2mvt3ttkg66n5qbq2dokajasjttg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionlvjot3r6g0g6fudmuff4j6rdd3dtdr2k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionm62991jp29698oecpn9culojnlt6671h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmbcibphv2t1cou8b0hsijr8ga6e7hgqo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmgq2ktpc4enael89a581tt315cb84aqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmi0ps032m5aageij0t26p4k6be6tk9fn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmidei4rvcit5u6qf7f2qq8hi0o7k9lrp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmit72o9ia00ebhrkn4urd13oh0mf2ojl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmjhr7sol00mt42jcs5mv3oa94rqpg59s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmqi1j4k7f18ip6s3ptb8k5vvq7uggjke" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmsnrlrbr716o93qjrmsp7tr8i7264ft0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmt56t9dkvbrbv81ktglf1m30gbl00rrb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmub2bjvc6b737q2u7ifs07p9bteg3kpu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionmvkebk8qldshmlvfphvffsfh58u9cj2v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionn3jci33qe8d9g431j1rtmaaot5r5t073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionn4r2hein2vfl02satmfso94vsdkqo42v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionn5hnquano3qiktmggp9nuihgb8kpjsfk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionn76qgl1bovrrktq40itpn5n8q73p46hc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionn9kje229q37c04jv3sgcetmk7tjg4e1p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionnnkedtl59cg27bs4gb8gprfd94e0qc6m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionnqfrgra35123e8s27l7p4l0ag5uhpm0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionnri0ab1qh7binb19k9nvi52v88qov4m2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionnub357aa7v7f2ptci6n89p0pg45alkoh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionnvngmaq0fecbimq76e7jmkdjilld4c04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiono0de2po22t7u6co8lk230kei7ue29mc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiono2d6p36rktl1jn7hgd7k0csjbvoqaloq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiono9v0mecn6q5fee6ht2a1vg6223sic6rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionod2v0e4qe8b1b64ufe7q20vuoe25g2er" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionojkufn13n3uulb5flk1i1o0h9575s82k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionokne19ifogehv57mv50m12jvaqtmfp9m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionoq5ddnpkf1c74c9jspot0s9u9sbn9kcp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionorvkluevkeoktdfeheciv8nju78goh27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionoufmeo3igjlkg5bvogq0nsq32oohm8q2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionovs6mg0243is296e2l58jeuj64ne9fms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionp6bl5a42doofbvmpn34cf07uun1pfrtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionp7o3m5e96pkc48gkkt2dvptufd8b8tmv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionp8tc9tuq6m8ii7a3na7m5m227akaiq61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionpcbl1nijormrhem4nfniddb2s0lb4q84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionpcrmk1a62ssmo88ag2cl5eoi13o05j8r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionpihs3mnl2c1kh0o3vip2l097j7o7vh2o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionpim3u2bhsn5es6o361690r91ades7hr8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionpohr6i9rak4isqo88r0p09bq7m343o50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionpqekhf52nqs2ulodbqs0ngf28r0ruhlq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionprfnhkqrmiu0c8lcea6fr3bt0nt0lnsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionprqo10pdcc0vsokrvo2qi15qmplihcnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionq13hed7gt8qd83kku7fje7vpa5nc7jbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionq3ehjg1m59agjkprpqkc1nl8o2buqfko" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionq3v62ccgklfu545rct5u61vg5jafnhbi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqc3scmqfei7rq4hdt4kvgbk4ke5640l8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqh4ublk7986av53iirt045crp2vruv3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqo6u6tm1pkhda9i4isnc9rh011hmns6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqp9pv68mlukls3glq1j2k0qb8t5ju08d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqrcltscr0u9rv8vls64jvpl88sdmptvf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqs47unvg2vq5uucic8pf1ipvj28tf62i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionqtbr3316m9cuk45jj3il1jeqg1pl96t0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionr4kobghg03qa07a4epdvd48jlpn103gg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionr6v4um4qi4uh5ci2mvogb44gc6ng1f69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionr8b3sg8te3lhuoaloudrp4partar2e0v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionr9t07cvhi8r286to9mpsb0r7t458ce06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionrtq2ah3p6hcana0ut3pd0c7ue41ppgj1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessions1j5irioijg31hlje3ufs59iv7fpct0h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessions1tcr00a84fgsmej16a39ds40cev6sc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessions62iukaiqki4l4f65buma0h0ctvul847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessions8cs0lrtbvuvom2jlekh2628gfbose0k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionsdk64ahab6i7tcc6ov364l5gp9iakm9o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionsdub6kp7ood51rnmcicomcj4dfuisoub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionse0t2ebg0dftukou0iue84dgl6t28o76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionsiufqj6btdh3c1vkk2qj0qvah92hibh5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionsj9u7cib0392tjo9a0ggpc8m9jf4v6v5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionskudm8ocru92umg3uub04pk10fmosnb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionspi6ifs0ra5jssmlq4jglg150pgpr0v6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiont2rual0l9veabpqgqcciba8tmeessmve" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiont39pkpstgl9jtt92lcfaaqt051330uic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiont5cg0qd5tv1e1g890e3s7264o738nnen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiont7h5b8003bpnodm0gg4g9uj16i492qu9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiont8kntg848ngvau6vkrqlsoh1l0f17o7l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontb4mgrk0ne79i5oph9hcm6oaom4o7k5q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontccp2tvu6657qic68p9ammqa24ri2of4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontcme34qabjjrahucguql02a5d1a0oh2r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontgnk0ptjhjvr89vvtehjot975g77vaa1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionto29e11ldm349k6pug78ep5kgok0q8nq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionts1714frqe7dqgnd3todg509jm139nas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontsmfi1jnpnha5khodm5vrk6ss8s8i092" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontsq63kpgqkpo94rhgp77n7lcfkb5iv8v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessiontvu70abprt6j98r4sbqr8hhed3qdbu2t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionu2cc5dm7cf99d9jv1cg4t4qrtmhjhcrj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionu9nrmqahr84fp86unll0oc8qmof164eu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionuh5cbbmmqmt4pp5svmkp6upj0l9hv3rj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionuj57p1htafioot657m8c79cqdvfrml35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionujp04kc313m6n4g2vc5r48jptrtqqj2r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionurm0j0rh5eerpm7bneuo1ns6l5rk29g8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionusqk8a2ugsppl7lsrhfjuoiuf8jq5837" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionv1j3rvk9c7qj63oq80lro5627108leqn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionv317h92d1p625pbj3dsnq1mjh5tnr8dv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionv5iblp8dg1rqe96c9hkub1s57pv67s1v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionv5t6rqaqo974d870c27pbmbue3e805t1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionvb0dvq8084dd0koro9g26t0q9cgc6vv5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionvcc7i1bhac7db67cr4ls4o9mr2gvvlfb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionvmcb1n7131car42na26jqgm4bourughe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/cache/ci_sessionvv9fpf86qjhiglmdvs0ftkhk5slbkoqm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/captcha/1577101921.4378.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/doitac/brand_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/doitac/brand_5.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,86 +335,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/site/home/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/site/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
-              <folding>
-                <element signature="n#div#1;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/site/slide.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uploads/images/news/Sua_may_tinh_tphcm.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uploads/images/news/Sua_may_tinh_tphcm1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/megamenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Catalog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/site/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/catalog/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,60 +350,78 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#ef4102</find>
-      <find>.Logo:after</find>
-      <find>product-carousel</find>
-      <find>margin-right: -15px;</find>
-      <find>san pham noi</find>
-      <find>email_must_be_array</find>
-      <find>`</find>
-      <find>is_natural_no_zero</find>
-      <find>mybreadcrumb</find>
-      <find>Giới thiệu</find>
-      <find>header-vmegamenu</find>
-      <find>$menucha</find>
-      <find>session</find>
-      <find>set_userdata</find>
-      <find>napmucmayingiar</find>
-      <find>get_userdata</find>
-      <find>check_login</find>
-      <find>HomeCon</find>
-      <find>admin/login</find>
-      <find>quyen.php</find>
-      <find>quyen</find>
-      <find>.menu</find>
-      <find>.menu {</find>
-      <find>submenu</find>
-      <find>padding-left</find>
-      <find>.nav-menu&gt;li:hover&gt;a, .nav-menu&gt;li.active a</find>
-      <find>.nav-menu .submenu</find>
       <find>Danh mục sản phẩm</find>
+      <find>Header-Order</find>
+      <find>.tb-blog .tb-blog-image img</find>
+      <find>box-image</find>
+      <find>st_header</find>
+      <find>Chi tiết sản phẩm</find>
+      <find>&lt;img style=&quot;margin:auto;&quot;</find>
+      <find>Thong bao loi ie8</find>
+      <find>&lt;img</find>
+      <find>.tb-blog.entry article .tb-content-block-title .blog-title-bottom</find>
+      <find>.tb-blog .tb-content-block-title .blog-title-bottom a</find>
+      <find>doitac</find>
+      <find>branch-carousel</find>
+      <find>.block-doitac .doitac-1</find>
+      <find>block-doitac</find>
+      <find>logodoitac</find>
+      <find>menucon</find>
+      <find>sanpham</find>
+      <find>product</find>
+      <find>.block-doitac</find>
+      <find>media</find>
+      <find>.nav-menu&gt;li</find>
+      <find>Xem chi tiết</find>
+      <find>list_data_con</find>
+      <find>get_sub_full</find>
+      <find>listsptb</find>
+      <find>get_list</find>
+      <find>result</find>
+      <find>.block-links-sidebar .list li:nth-child(even)</find>
+      <find>module_menu</find>
     </findStrings>
     <replaceStrings>
       <replace>#1268b3</replace>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\napmucmayingiare.net\application</dir>
+      <dir>C:\xampp\htdocs\napmucmayingiare.net\application\controllers</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/application/libraries/Mybreadcrumb.php" />
         <option value="$PROJECT_DIR$/application/views/site/footer.php" />
-        <option value="$PROJECT_DIR$/public/site/js/common.js" />
-        <option value="$PROJECT_DIR$/application/controllers/Product.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/views/site/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/Login.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/admin/catalog/edit.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/Catalog.php" />
-        <option value="$PROJECT_DIR$/application/views/site/menu.php" />
-        <option value="$PROJECT_DIR$/public/site/css/custom.css" />
-        <option value="$PROJECT_DIR$/public/site/css/style.css" />
-        <option value="$PROJECT_DIR$/application/views/site/home/index.php" />
         <option value="$PROJECT_DIR$/application/views/megamenu.php" />
         <option value="$PROJECT_DIR$/application/views/site/slide.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/public/site/js/common.js" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/application/views/site/layout.php" />
+        <option value="$PROJECT_DIR$/application/views/site/logofooter.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
+        <option value="$PROJECT_DIR$/application/views/site/popularbrand.php" />
+        <option value="$PROJECT_DIR$/application/models/Catalog_model.php" />
+        <option value="$PROJECT_DIR$/application/views/site/home/index.php" />
+        <option value="$PROJECT_DIR$/public/site/css/custom.css" />
+        <option value="$PROJECT_DIR$/application/controllers/Sanpham.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Product.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/views/site/menu.php" />
+        <option value="$PROJECT_DIR$/public/site/css/style.css" />
+        <option value="$PROJECT_DIR$/application/views/site/menuright.php" />
+        <option value="$PROJECT_DIR$/application/views/site/header.php" />
       </list>
     </option>
   </component>
@@ -194,13 +460,15 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1911" />
     <option name="width" value="1938" />
-    <option name="height" value="2109" />
+    <option name="height" value="2091" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,16 +476,52 @@
               <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
               <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="napmucmayingiare.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="napmucmayingiare.net" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="doitac" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bitech_web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -226,6 +530,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\napmucmayingiare.net" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,21 +571,26 @@
       <workItem from="1576377731113" duration="667000" />
       <workItem from="1577024585731" duration="4014000" />
       <workItem from="1577100677653" duration="11044000" />
+      <workItem from="1578148268884" duration="2035000" />
+      <workItem from="1578197696128" duration="8004000" />
+      <workItem from="1578924591035" duration="2141000" />
+      <workItem from="1579222669302" duration="153000" />
+      <workItem from="1579402191836" duration="21114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32521000" />
+    <option name="totallyTimeSpent" value="65968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1274" y="0" width="1292" height="1406" extended-state="0" />
+    <frame x="1274" y="0" width="1292" height="1394" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3060065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33441558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -285,7 +599,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32646593" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,141 +611,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Lienhe_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Color_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="74" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Admin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/Upload_library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Lienhe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/form_validation_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/date_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/migration_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/pagination_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/profiler_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/unit_test_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/upload_lang.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/helpers/MY_date_helper.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Emailtintuc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/menuright.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Loaiphong_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -518,65 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="306" column="50" selection-start-line="306" selection-start-column="50" selection-end-line="306" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Catalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="574" lean-forward="true" selection-start-line="574" selection-end-line="574" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="3611" column="19" selection-start-line="3611" selection-start-column="19" selection-end-line="3611" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/catalog/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/megamenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/slide.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -584,23 +704,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/news/Sua_may_tinh_tphcm1.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uploads/images/news/Sua_may_tinh_tphcm.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+    <entry file="file://$PROJECT_DIR$/uploads/images/news/Sua_may_tinh_tphcm1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/megamenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/catalog/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/offerbanner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/blockright.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/menusanpham.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/logofooter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="154" column="31" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/popularbrand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Product_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="3092" column="22" lean-forward="true" selection-start-line="3092" selection-start-column="22" selection-end-line="3092" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+        <state relative-caret-position="312">
+          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/product/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/sanpham/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/product/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="82" column="57" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Menu_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Catalog_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="176" column="46" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="174" column="50" selection-start-line="174" selection-start-column="50" selection-end-line="174" selection-end-column="50" />
+          <folding>
+            <element signature="e#352#933#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/url_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/common_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="2608" lean-forward="true" selection-start-line="2608" selection-end-line="2608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="163" column="28" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/menuright.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
