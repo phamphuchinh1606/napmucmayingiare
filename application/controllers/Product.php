@@ -43,7 +43,7 @@ Class Product extends MY_Controller{
 		$this->data['keywords'] = $keywords;
 		$this->data['image_seo'] = ($catalog->image_link)?base_url('uploads/images/catalogs/'.$catalog->image_link):'';
 
-		if(count($this->catalog_model->menucon($catalog->id)) > 0 && false){
+		if(count($this->catalog_model->menucon($catalog->id)) > 0){
 			//$this->db->cache_on();
 			$catalog_subs = $this->catalog_model->get_sub_full($catalog);
 			if($catalog_subs){
@@ -118,7 +118,7 @@ Class Product extends MY_Controller{
 			$this->data['phantrang'] = $phantrang;
 
             if(count($this->catalog_model->menucon($catalog->id)) > 0){
-                //$this->db->cache_on();
+//                //$this->db->cache_on();
                 $catalog_subs = $this->catalog_model->get_sub_full($catalog);
                 $this->db->where('status', 1);
                 $this->db->where_in('catalog_id', $catalog_subs);
@@ -133,7 +133,6 @@ Class Product extends MY_Controller{
                 $this->db->order_by('noibat', 'asc');
                 $list_sp = $this->db->get('product')->result();
             }
-
 			//$this->db->cache_off();
 			$this->data['list_data_con'] = $list_sp;
 		}

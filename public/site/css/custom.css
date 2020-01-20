@@ -856,6 +856,9 @@ border-color: #333;
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
+  .tb-blog .tb-content-block-title .blog-title-bottom a{
+    font-size: 14px;
+  }
 }
 
 .nhanbantin .btn-nhanbantin {
@@ -3090,7 +3093,7 @@ ul.playlist li img {
         width: 1200px;
     }
     .tb-blog .tb-content-block-title .blog-title-bottom a{
-      font-size: 16px;
+      font-size: 18px;
     }
     .nav-menu>li{
       padding-right: 30px;
@@ -3101,7 +3104,7 @@ ul.playlist li img {
     width: 100%;
   }
   .tb-blog .tb-content-block-title .blog-title-bottom a{
-    font-size: 22px;
+    font-size: 20px;
   }
   .nav-menu>li{
     padding-right: 40px;
@@ -3572,7 +3575,7 @@ ul.playlist li img {
 
 .naviacc h2 {
   position: relative;
-  padding: 11px 30px 10px 10px;
+  padding: 12px 30px 10px 10px;
 }
 
 .naviacc h2:not(.ttl_not-arrow) {
