@@ -3444,7 +3444,7 @@ ul.playlist li img {
 
 .tb-blog.entry article .tb-content-block-title .blog-title-bottom{
     text-align: center;
-    /*font-size: 15px;*/
+    font-size: 15px;
     text-transform: uppercase;
     padding: 15px 0px;
 }
