@@ -42,8 +42,8 @@ Class Product extends MY_Controller{
 		$this->data['description'] = $description;
 		$this->data['keywords'] = $keywords;
 		$this->data['image_seo'] = ($catalog->image_link)?base_url('uploads/images/catalogs/'.$catalog->image_link):'';
-
-		if(count($this->catalog_model->menucon($catalog->id)) > 0){
+        $countMenuCon = count($this->catalog_model->menucon($catalog->id));
+		if($countMenuCon > 0 && false){
 			//$this->db->cache_on();
 			$catalog_subs = $this->catalog_model->get_sub_full($catalog);
 			if($catalog_subs){
@@ -62,7 +62,7 @@ Class Product extends MY_Controller{
 			//$this->db->cache_off();
 			$this->data['list_data'] = $list_data;
 		}else{
-            if(count($this->catalog_model->menucon($catalog->id)) > 0){
+            if($countMenuCon > 0){
                 //$this->db->cache_on();
                 $catalog_subs = $this->catalog_model->get_sub_full($catalog);
                 $this->db->where('status', 1);
@@ -117,9 +117,9 @@ Class Product extends MY_Controller{
 			$phantrang = $this->pagination->create_links();
 			$this->data['phantrang'] = $phantrang;
 
-            if(count($this->catalog_model->menucon($catalog->id)) > 0){
+            if($countMenuCon > 0){
 //                //$this->db->cache_on();
-                $catalog_subs = $this->catalog_model->get_sub_full($catalog);
+//                $catalog_subs = $this->catalog_model->get_sub_full($catalog);
                 $this->db->where('status', 1);
                 $this->db->where_in('catalog_id', $catalog_subs);
                 $this->db->order_by('created', 'desc');
