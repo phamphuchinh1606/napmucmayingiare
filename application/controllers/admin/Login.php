@@ -22,7 +22,7 @@ Class Login extends MY_Controller{
 				// tao session login
 				$username = $this->input->post('username');
 				$password = $this->input->post('password');
-//				$password = md5($password);
+				$password = md5($password);
 				$where = array('username' => $username, 'password' => $password);
 				$info = $this->admin_model->get_info_rule($where);
 				$this->session->set_userdata('login', $info);
@@ -38,7 +38,7 @@ Class Login extends MY_Controller{
 	function check_login(){
 		$username = $this->input->post('username');
 		$password = $this->input->post('password');
-//		$password = md5($password);
+		$password = md5($password);
 
 		$where = array('username' => $username, 'password' => $password);
 		$admin = $this->admin_model->get_info_rule($where);
