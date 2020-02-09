@@ -19,7 +19,7 @@ Class Product extends MY_Controller{
 		$total_rows = $this->product_model->get_total();
 		$this->data['total_rows'] = $total_rows;
 		// phan trang
-		$config = array();
+        $config = array();
 		$config['total_rows'] = $total_rows; // tat ca san pham
 		$config['base_url'] = admin_url('product/index/'); // link hien thi ra danh sach
 		$config['per_page'] = 30; // so luong san pham tren 1 trang

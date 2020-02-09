@@ -1599,6 +1599,10 @@ footer .footer-description .nhakho-footer-section__heading{
   padding: 5px;
 }
 
+.header1 .header-top-right {
+  background: #1268b3;
+}
+
 .header2 .header-top-left #logo {
   padding: 0;
 }
@@ -1606,7 +1610,7 @@ footer .footer-description .nhakho-footer-section__heading{
   display: inline-block;
   max-width: 165px;
 }
-.header2 .header-top-right { 
+.header2 .header-top-right {
 }
 .header2 .header-top-right, .header2 .header-top-left {
   font-size: 14px;
@@ -3370,12 +3374,29 @@ ul.playlist li img {
 .menu {
     display: none;
 }
+.naviacc h2 .view-more{
+  display: none;
+}
 @media (max-width: 720px){
   .menu-horizontal {
     display: none;
   }
   .nav-menu>li{
     padding-right: 20px;
+  }
+  .naviacc h2 {
+    text-align: left;
+    width: 100%;
+    padding-right: 10px !important;
+  }
+  .naviacc h2 .view-more{
+    font-size: 12px;
+    display: inline;
+    text-transform: none;
+    float: right;
+  }
+  .naviacc .menu-sub-nav{
+    display: none;
   }
 }
 @media (min-width: 720px){

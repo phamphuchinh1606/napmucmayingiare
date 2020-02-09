@@ -72,7 +72,9 @@
 
 <header class="header1 hidden-lg hidden-md">
   <div class="headerxs">
-    <a href="<?=base_url()?>"><img alt="<?=base_url()?>" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>"></a>
+    <a href="<?=base_url()?>">
+        <img alt="<?=base_url()?>" style="height: 30px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
+    </a>
   </div>
   <div class="header-top-right">
     <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax">

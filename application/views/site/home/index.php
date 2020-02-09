@@ -149,7 +149,12 @@
                     <img src="<?=base_url('uploads/images/catalogs/placeholder.png')?>" alt="<?=$data['cat_name']?>">
                     <?php endif;?>
                     
-                    <a href="<?=base_url($data['cat_url'].'-c'.$data['cat_id'])?>"><?= $data['cat_name'];?></a></h2>
+                    <a href="<?=base_url($data['cat_url'].'-c'.$data['cat_id'])?>"><?= $data['cat_name'];?></a>
+                    <a href="<?=base_url($data['cat_url'].'-c'.$data['cat_id'])?>?>" class="view-more">
+                        Xem tất cả
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </h2>
                 <ul class="menu-sub-nav">
                     <?php
                         $c = $this->catalog_model->menuconcosanpham($data['cat_id']);

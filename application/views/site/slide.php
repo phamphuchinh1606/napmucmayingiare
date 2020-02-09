@@ -152,7 +152,7 @@
             <span class="fa fa-angle-right" aria-hidden="true"></span>
           </a>
         </div>
-        <div id="myCarouselmobile" class="carousel slide hidden-lg hidden-md hidden-sm" data-ride="carousel" data-interval="7000">
+        <div id="myCarouselmobile" class="carousel slide hidden-lg hidden-md hidden-sm carousel-fade" data-ride="carousel" data-interval="7000">
           <ol class="carousel-indicators">
             <?php foreach($slide_list as $key=>$slide):?>
             <li data-target="#myCarouselmobile" data-slide-to="<?=$key?>" class="<?=($key == 0)?'active':''?>"></li>
