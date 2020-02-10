@@ -71,17 +71,32 @@
 
 
 <header class="header1 hidden-lg hidden-md">
-  <div class="headerxs">
+  <div class="headerxs" style="display: flex;">
     <a href="<?=base_url()?>">
-        <img alt="<?=base_url()?>" style="height: 30px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
+        <img alt="<?=base_url()?>" style="height: 50px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
     </a>
+      <div class="row">
+          <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
+              <span>Mua hàng online</span>
+              <b>0943 866 866</b>
+          </a>
+      </div>
   </div>
-  <div class="header-top-right">
-    <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax">
+  <div class="header-top-right header-horizontal" style="width: 100%;padding-bottom: 5px">
+      <div class="floatL" style="float: left">
+          <a href="javascript::void(0)" class="nav-toogle" style="position: inherit;display: block"><i class="fa fa-bars text-30"></i></a>
+      </div>
+    <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax" style="width: 80%;float:left;">
       <div class="input-group">
         <input name="keyword" type="text" class="form-control searchjax-input" placeholder="<?=lang('searchinfo')?>">
         <span class="input-group-addon"><button type="submit" class="timajax"><?=lang('search')?></button></span>
       </div>
     </form>
+      <div class="block-cart-mb" style="float: left;top:80px;position: fixed;right: 15px">
+          <a href="<?=site_url('cart')?>" title="Giỏ hàng">
+              <i class="fa fa-shopping-cart"></i>
+              <span class="cart-ajax"><?=$total_items?></span>
+          </a>
+      </div>
   </div>
 </header>

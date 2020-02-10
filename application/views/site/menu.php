@@ -1,12 +1,12 @@
 <div class="mocmenu"></div>
 <div class="menu">
-  <div class="nav-toogle"><i class="fa"></i></div>
+  <!--<div class="nav-toogle"><i class="fa"></i></div>
   <div class="block-cart-mb">
     <a href="<?=site_url('cart')?>" title="Giỏ hàng">
       <i class="fa fa-shopping-cart"></i>
       <span class="cart-ajax"><?=$total_items?></span>
     </a>
-  </div>
+  </div>-->
   <div class="menu-top">
     <div class="container">
       <div class="row">
@@ -110,12 +110,12 @@
 
 <div class="menu menu-horizontal">
     <div class="nav-toogle"><i class="fa"></i></div>
-    <div class="block-cart-mb">
+    <!--<div class="block-cart-mb">
         <a href="<?=site_url('cart')?>" title="Giỏ hàng">
             <i class="fa fa-shopping-cart"></i>
             <span class="cart-ajax"><?=$total_items?></span>
         </a>
-    </div>
+    </div>-->
     <div class="menu-top">
         <div class="container">
             <div class="row">

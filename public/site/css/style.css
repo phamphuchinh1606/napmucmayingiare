@@ -715,10 +715,10 @@ select {
 }
 
 .nav-toogle i {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 42px;
   text-align: center;
-  line-height: 35px;
+  line-height: 40px;
   font-size: 20px;
   background: #1268b3;
 }

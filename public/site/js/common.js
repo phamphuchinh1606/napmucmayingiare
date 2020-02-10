@@ -225,7 +225,9 @@
    * 7. Main Menu
   */
   $(".nav-toogle").on( 'click', function() {
-    $(this).toggleClass('has-open');
+    // $(this).toggleClass('has-open');
+    $('.menu-horizontal .nav-toogle').toggleClass('has-open');
+    $('.header-horizontal .nav-toogle').toggleClass('has-open');
     $(".menu").toggleClass("has-open");
     $("body").toggleClass("menu-open");
   });
