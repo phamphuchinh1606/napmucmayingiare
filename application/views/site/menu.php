@@ -17,6 +17,9 @@
             </div>
             <div class="v-megamenu" style="display:none">
               <ul>
+                  <li class="level0 parent">
+                      <a class="cap0" href="<?=base_url()?>">Trang Chủ</a>
+                  </li>
                 <?php
                 if(isset($listcatmenu) && $listcatmenu):
                   foreach($listcatmenu as $key=>$row):?>
@@ -51,22 +54,8 @@
           <nav class="menu-mid clearfix">
             
               <ul class="nav-menu clearfix">
-                <li class="level0 parent"><a class="cap0" href="<?=base_url()?>">Trang Chủ</a>
-                    <ul class="level0 submenu">
-                        <li class="level1">
-                            <a href="#" title="">312312</a>
-                        </li>
-                        <li class="level1">
-                            <a href="#" title="">312312</a>
-                        </li>
-                        <li class="level1">
-                            <a href="#" title="">312312</a>
-                        </li>
-                        <li class="level1">
-                            <a href="#" title="">312312</a>
-                        </li>
-
-                    </ul>
+                <li class="level0 parent">
+                    <a class="cap0" href="<?=base_url()?>">Trang Chủ</a>
                 </li>
                   <?php if(isset($menucha) && $menucha):?>
                   <?php foreach($menucha as $menu): ?>
@@ -122,6 +111,9 @@
                 <div class="header-megamenu col-md-12">
                     <nav class="menu-mid clearfix">
                         <ul class="nav-menu clearfix">
+                            <li class="level0">
+                                <a class="cap0" href="<?=base_url()?>">Trang Chủ</a>
+                            </li>
                             <?php
                             if(isset($listcatmenu) && $listcatmenu):
                                 foreach($listcatmenu as $key=>$row):?>

@@ -69,30 +69,97 @@
     </div>
 </header>
 
+<style type="text/css">
+    .header1 {
+        padding: 0;
+    }
+    .header1 .headerxs {
+        padding: 10px 15px;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .header1 .logoSp {
+        display: flex;
+        align-items: center;
+    }
+    .header1 .logoSp > span {
+        margin-left: 5px;
+    }
+    .header1 .headerxs .headline {
+        font-size: 10px;
+    }
+    .header1 .hotline {
+        text-transform: uppercase;
+        text-align: right;
+        font-size: 14px;
+    }
+    .header1 .hotline span {
+        display: block;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .barNavHeaderSP {
+        background-color: #1268b3;
+        overflow: hidden;
+        padding: 10px;
+        display: flex;
+        flex: auto;
+    }
+
+    .barNavHeaderSP .block-cart-mb {
+        background-color: transparent;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+
+    .barNavHeaderSP .cart-ajax {
+        background-color: red;
+        color: #fff;
+    }
+
+    .barNavHeaderSP .block-cart-mb .fa-shopping-cart {
+        color: #fff;
+    }
+
+
+    @media (max-width: 991px) {
+        .searchajax {
+            z-index: 9;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .header1 .headerxs img {
+            margin: 0;
+        }
+    }
+</style>
 
 <header class="header1 hidden-lg hidden-md">
-  <div class="headerxs" style="display: flex;">
-    <a href="<?=base_url()?>">
+  <div class="headerxs">
+    <a class="logoSp" href="<?=base_url()?>">
         <img alt="<?=base_url()?>" style="height: 50px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
+        <span class="headline">CT TNHH TM DV KỸ THUẬT<br> TIN HỌC VIỄN THÔNG</span>
     </a>
-      <div class="row">
-          <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
-              <span>Mua hàng online</span>
-              <b>0943 866 866</b>
-          </a>
-      </div>
+      <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
+          <span>Mua hàng online</span>
+          <b>0943 866 866</b>
+      </a>
   </div>
-  <div class="header-top-right header-horizontal" style="width: 100%;padding-bottom: 5px">
-      <div class="floatL" style="float: left">
+  <div class="barNavHeaderSP header-top-right header-horizontal">
+      <div class="floatL">
           <a href="javascript::void(0)" class="nav-toogle" style="position: inherit;display: block"><i class="fa fa-bars text-30"></i></a>
       </div>
-    <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax" style="width: 80%;float:left;">
+    <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax">
       <div class="input-group">
         <input name="keyword" type="text" class="form-control searchjax-input" placeholder="<?=lang('searchinfo')?>">
-        <span class="input-group-addon"><button type="submit" class="timajax"><?=lang('search')?></button></span>
+        <span class="input-group-addon"><button type="submit" class="timajax"><i class="fa fa-search"></i></button></span>
       </div>
     </form>
-      <div class="block-cart-mb" style="float: left;top:80px;position: fixed;right: 15px">
+      <div class="block-cart-mb">
           <a href="<?=site_url('cart')?>" title="Giỏ hàng">
               <i class="fa fa-shopping-cart"></i>
               <span class="cart-ajax"><?=$total_items?></span>

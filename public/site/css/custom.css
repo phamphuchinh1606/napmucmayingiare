@@ -3100,7 +3100,7 @@ ul.playlist li img {
       font-size: 18px;
     }
     .nav-menu>li{
-      padding-right: 30px;
+      padding-right: 16px;
     }
 }
 @media (min-width: 1300px){
@@ -3111,7 +3111,7 @@ ul.playlist li img {
     font-size: 20px;
   }
   .nav-menu>li{
-    padding-right: 40px;
+    padding-right: 35px;
   }
 }
 @media (min-width: 1600px){
