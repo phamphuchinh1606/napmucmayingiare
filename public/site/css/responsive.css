@@ -310,7 +310,7 @@
     left: 0;
     z-index: 999;
     overflow-y: auto !important;
-    background: #f47920;
+    background: #ffffff;
   }
   .nav-menu>li {
     width: 100%;
@@ -319,6 +319,10 @@
     text-align: left;
     padding-left: 15px;
     border-bottom: 1px solid rgba(232, 232, 232, 0.34);
+  }
+  .header-megamenu .nav-menu>li>a{
+      color: #1a2126;
+    font-weight: bold;
   }
   .nav-menu > li.parent > a:after {
     display: none;
@@ -336,7 +340,7 @@
     width: 40px;
     z-index: 9;
     cursor: pointer;
-    background: #ef4102;
+    background: #1268b3;
   }
   .nav-menu li.parent .plus:before {
     content: "\f067";

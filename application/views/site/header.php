@@ -88,17 +88,18 @@
         margin-left: 5px;
     }
     .header1 .headerxs .headline {
-        font-size: 10px;
+        font-size: 12px;
     }
     .header1 .hotline {
         text-transform: uppercase;
         text-align: right;
-        font-size: 14px;
+        font-size: 16px;
     }
     .header1 .hotline span {
         display: block;
         font-size: 12px;
         margin-top: 10px;
+        color: #1a2126;
     }
     .barNavHeaderSP {
         background-color: #1268b3;
@@ -106,6 +107,18 @@
         padding: 10px;
         display: flex;
         flex: auto;
+    }
+
+    .barNavHeaderSP .napMenuSP{
+        width: 45px;
+    }
+
+    .barNavHeaderSP .napCartSP{
+        width: 45px;
+    }
+
+    .barNavHeaderSP .searchajax{
+        width: calc(100% - 2* 45px - 5px);
     }
 
     .barNavHeaderSP .block-cart-mb {
@@ -146,11 +159,11 @@
     </a>
       <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
           <span>Mua hàng online</span>
-          <b>0943 866 866</b>
+          <b>0355 893 423</b>
       </a>
   </div>
   <div class="barNavHeaderSP header-top-right header-horizontal">
-      <div class="floatL">
+      <div class="napMenuSP">
           <a href="javascript::void(0)" class="nav-toogle" style="position: inherit;display: block"><i class="fa fa-bars text-30"></i></a>
       </div>
     <form action="<?=base_url('timkiem');?>" method="GET" class="searchajax">
@@ -159,7 +172,7 @@
         <span class="input-group-addon"><button type="submit" class="timajax"><i class="fa fa-search"></i></button></span>
       </div>
     </form>
-      <div class="block-cart-mb">
+      <div class="block-cart-mb napCartSP">
           <a href="<?=site_url('cart')?>" title="Giỏ hàng">
               <i class="fa fa-shopping-cart"></i>
               <span class="cart-ajax"><?=$total_items?></span>

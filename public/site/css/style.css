@@ -729,6 +729,10 @@ select {
   color: #ffffff;
 }
 
+.nav-toogle.has-open i{
+  background: #FF3333;
+}
+
 .nav-toogle.has-open i:before {
   content: "\f00d";
 }
