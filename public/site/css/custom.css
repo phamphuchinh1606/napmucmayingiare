@@ -3264,7 +3264,7 @@ ul.playlist li img {
     width: 20px;
 }
 .Header-Order:before {
-    background: url(http://mucinnguyenduc.com/Image/style-image/cart-icon.png) no-repeat scroll -5px -5px;
+    background: url('/public/site/images/cart-icon.png') no-repeat scroll -5px -5px;
     content: "";
     height: 30px;
     left: -25px;
@@ -3320,7 +3320,7 @@ ul.playlist li img {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .Menu-Header-Right .header-hotline >a:before {
-    background: url(http://mucinnguyenduc.com/Image/style-image/header_sprite.png) no-repeat;
+    background: url('/public/site/images/header_sprite.png') no-repeat;
     width: 30px;
     height: 30px;
     position: absolute;
@@ -3344,7 +3344,7 @@ ul.playlist li img {
     background-position: 0 0;
 }
 .Menu-Header-Right .header-promotion >a:before, .Menu-Header-Right .header-adress >a:before {
-    background: url(http://mucinnguyenduc.com/Image/style-image/header_sprite.png) no-repeat;
+    background: url('/public/site/images/header_sprite.png') no-repeat;
     width: 30px;
     height: 30px;
     position: absolute;

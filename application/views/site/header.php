@@ -83,6 +83,7 @@
     .header1 .logoSp {
         display: flex;
         align-items: center;
+        width: 230px;
     }
     .header1 .logoSp > span {
         margin-left: 5px;
@@ -155,7 +156,7 @@
   <div class="headerxs">
     <a class="logoSp" href="<?=base_url()?>">
         <img alt="<?=base_url()?>" style="height: 50px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
-        <span class="headline">CT TNHH TM DV KỸ THUẬT<br> TIN HỌC VIỄN THÔNG</span>
+        <span class="headline">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KỸ THUẬT TIN HỌC VIỄN THÔNG</span>
     </a>
       <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
           <span>Mua hàng online</span>
