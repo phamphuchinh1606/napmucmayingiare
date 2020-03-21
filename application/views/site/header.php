@@ -97,6 +97,10 @@
         text-transform: uppercase;
         text-align: right;
         font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 55px;
     }
     .header1 .hotline span {
         display: block;
@@ -150,6 +154,10 @@
         font-size: 1.5em;
         font-weight: bold;
     }
+    .logoSp span.small{
+        font-size:10px;
+        color: red;
+    }
 
     @media (max-width: 991px) {
         .searchajax {
@@ -168,7 +176,10 @@
   <div class="headerxs">
     <a class="logoSp" href="<?=base_url()?>">
         <img alt="<?=base_url()?>" style="height: 50px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
-        <span class="headline">VIỄN THÔNG GROUP</span>
+        <div>
+            <span class="headline">VIỄN THÔNG GROUP</span>
+            <span class="small">Mang công nghệ đến với bạn</span>
+        </div>
     </a>
       <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
           <span>Mua hàng online</span>
