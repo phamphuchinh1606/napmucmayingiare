@@ -36,7 +36,8 @@
             <div class="col-xs-7 col-sm-7 col-md-9">
               <div id="Logo-Slogan" class="Logo-Slogan">
                 <a href="/" style="color: #ffffff">
-                    <?=$infosetting->tenquocte?>
+                    VIỄN THÔNG GROUP
+<!--                    --><?//=$infosetting->tenquocte?>
                     <!--<img alt="<?=$infosetting->tenquocte?>" longdesc="<?=$infosetting->tenquocte?>" src="" title="<?=$infosetting->tenquocte?>">-->
                 </a>
               </div>
@@ -72,9 +73,10 @@
 <style type="text/css">
     .header1 {
         padding: 0;
+        background: aliceblue;
     }
     .header1 .headerxs {
-        padding: 10px 15px;
+        padding: 10px 10px;
         border: none;
         display: flex;
         justify-content: space-between;
@@ -83,7 +85,7 @@
     .header1 .logoSp {
         display: flex;
         align-items: center;
-        width: 230px;
+        width: calc(100% - 120px);
     }
     .header1 .logoSp > span {
         margin-left: 5px;
@@ -137,7 +139,17 @@
     .barNavHeaderSP .block-cart-mb .fa-shopping-cart {
         color: #fff;
     }
-
+    .header1 .headerxs img{
+        margin: unset;
+    }
+    .Logo-Slogan {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 70px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
 
     @media (max-width: 991px) {
         .searchajax {
@@ -156,7 +168,7 @@
   <div class="headerxs">
     <a class="logoSp" href="<?=base_url()?>">
         <img alt="<?=base_url()?>" style="height: 50px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
-        <span class="headline">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KỸ THUẬT TIN HỌC VIỄN THÔNG</span>
+        <span class="headline">VIỄN THÔNG GROUP</span>
     </a>
       <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
           <span>Mua hàng online</span>
