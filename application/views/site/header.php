@@ -176,9 +176,9 @@
   <div class="headerxs">
     <a class="logoSp" href="<?=base_url()?>">
         <img alt="<?=base_url()?>" style="height: 50px" src="<?=base_url('uploads/images/logo-banner/'.$infosetting->logo)?>">
-        <div>
+        <div style="height: 40px">
             <span class="headline">VIỄN THÔNG GROUP</span>
-            <span class="small">Mang công nghệ đến với bạn</span>
+            <span class="small"><br/>Mang công nghệ đến với bạn</span>
         </div>
     </a>
       <a href="tel:0901591456" class="text-red hotline ml-0 pt-1 d-inline-block">
